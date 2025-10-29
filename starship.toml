@@ -1,0 +1,41 @@
+# 💜 Clean Purple Theme 💜
+
+format = """
+$directory\
+$git_branch\
+$git_status\
+$line_break\
+$character"""
+
+[directory]
+style = "bold bright-purple"
+format = "[$path]($style) "
+truncation_length = 3
+truncate_to_repo = true
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = " "
+style = "bold purple"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style = "bold magenta"
+format = "([$all_status$ahead_behind]($style) )"
+modified = "!${count}"
+staged = "+${count}"
+untracked = "?${count}"
+up_to_date = "✓"
+
+[character]
+success_symbol = "[❯](bold bright-purple)"
+error_symbol = "[❯](bold red)"
+
+[cmd_duration]
+min_time = 1000
+format = "took [$duration](bold yellow) "

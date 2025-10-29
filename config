@@ -1,0 +1,60 @@
+# 💜 Clean Purple Theme 💜
+
+# Font
+font-family = FiraCode Nerd Font Mono
+font-size = 14
+
+# Colors - Deep Purple with Good Contrast
+background = 1a1b26
+foreground = c0caf5
+
+# Cursor
+cursor-color = bb9af7
+cursor-style = block
+cursor-style-blink = true
+
+# Selection
+selection-background = 7e57c2
+selection-foreground = ffffff
+
+# Window
+window-padding-x = 12
+window-padding-y = 12
+background-opacity = 0.96
+
+# Purple ANSI Colors (Tokyo Night Purple variant)
+palette = 0=#15161e
+palette = 1=#f7768e
+palette = 2=#9ece6a
+palette = 3=#e0af68
+palette = 4=#7aa2f7
+palette = 5=#bb9af7
+palette = 6=#7dcfff
+palette = 7=#a9b1d6
+palette = 8=#414868
+palette = 9=#f7768e
+palette = 10=#9ece6a
+palette = 11=#e0af68
+palette = 12=#7aa2f7
+palette = 13=#bb9af7
+palette = 14=#7dcfff
+palette = 15=#c0caf5
+
+# Shell
+shell-integration = zsh
+
+# Clipboard
+clipboard-read = allow
+clipboard-write = allow
+copy-on-select = true
+
+# Mouse
+mouse-hide-while-typing = false
+mouse-scroll-multiplier = 1.0
+
+# Scrollback
+scrollback-limit = 10000
+
+# Window
+window-decoration = true
+quit-after-last-window-closed = false
